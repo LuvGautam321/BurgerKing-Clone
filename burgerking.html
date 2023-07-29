@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BurgerKing India | Online Ordering</title>
+    <link rel="shortcut icon" href="img/bk.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Blaka&family=Kanit:wght@100&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            margin: 0%;
+            padding: 0%;
+
+            font-family: 'Acme', sans-serif;
+            background-color: antiquewhite;
+        }
+
+        .navbar {
+            overflow: hidden;
+            width: 100%;
+            display: flex;
+            height: 100px;
+            top: 0%;
+            /* position: fixed; */
+            background-color: white;
+
+
+        }
+
+        .side {
+            display: flex;
+
+            list-style: none;
+            position: absolute;
+            right: 10px;
+            top: 20px;
+        }
+
+        .item a {
+            text-decoration: none;
+            margin: 1rem;
+            color: grey;
+            font-weight: bold;
+        }
+
+        .logo {
+            position: absolute;
+            left: 30px;
+            top: 10px;
+        }
+
+        .log {
+            height: 6rem;
+            border-radius: 2rem;
+            /* left: 3re  top: 2rem; */
+
+        }
+
+        .but {
+
+            height: 20px;
+
+        }
+
+        .offer {
+            position: relative;
+            /* top: 1.3rem; */
+            background-repeat: no-repeat;
+            height: 350px;
+
+        }
+
+        .offer img {
+            width: 100%;
+            height: 100%;
+
+        }
+
+        .menu {
+            position: relative;
+            top: 2rem;
+            left: 3rem;
+
+        }
+
+        .variety {
+
+            display: flex;
+            /* flex-wrap: wrap; */
+            justify-content: space-around;
+
+        }
+
+        .item2 {
+            margin: 3rem;
+            text-align: center;
+            font-size: large;
+        }
+
+        #but1,
+        #but2 {
+            position: relative;
+            top: 4rem;
+        }
+
+        .fav,
+        .bkS {
+            position: relative;
+            left: 3rem;
+        }
+
+        .fav1 {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .comb {
+            display: flex;
+            height: 175px;
+            width: 300px;
+            background-color: white;
+
+            /* justify-content: space-between; */
+
+        }
+
+        .comb1 {
+            align-items: center;
+        }
+
+        .tet {
+            padding: 5px;
+        }
+
+        h6 {
+            font-weight: 50;
+        }
+
+        .off {
+            margin: 70px;
+        }
+
+        .offt {
+            width: 100%;
+        }
+
+        .spe {
+            height: 450px;
+            width: 90%;
+            display: flex;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            padding-left: 120px;
+        }
+
+        .item4 {
+
+            display: flex;
+            width: 24%;
+            height: 175px;
+            margin: 2rem;
+            /* border: 2px solid navy; */
+            background-color: white;
+        }
+
+        .foot {
+
+            display: flex;
+            margin-left: 0px;
+            display: flex;
+            width: 100%;
+            height: 400px;
+            padding: 20px;
+            /* border: 2px solid black; */
+            justify-content: space-around;
+            color: white;
+            background-color: rgb(46, 44, 44);
+
+        }
+
+        .btw {
+            position: relative;
+            left: 4rem;
+            width: 90%;
+            margin: 2rem;
+        }
+
+        #down {
+            width: 30%;
+
+            height: 75%;
+        }
+
+        h5 {
+            list-style: none;
+            line-height: 25px;
+            color: grey;
+        }
+        .footer img{
+            margin:8px;
+            width: 30%;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+
+        <div class="navbar">
+            <div class="logo">
+                <img src="img/bk.png" alt="" class="log">
+            </div>
+            <ul class="side">
+                <li class="item"><a href="#">NEARBY STORES</a></li>
+                <li class="item"><a href="#">KING DEALS</a></li>
+                <li class="item"><a href="#">LOGIN</a></li>
+                <li class="item"><a href="#">CART</a></li>
+                <li class="item"><a href="#"><img src="img/sea.png" alt="" class="but"></a></li>
+            </ul>
+
+        </div>
+
+    </header>
+    <section>
+        <div class="offer"><img src="img/bk7.jpg" alt=""></div>
+    </section>
+    <h2 class="menu">OUR MENU</h2>
+    <div class="variety">
+        <div class="item2" id="but1"><input type="button" value="<"> </div>
+        <div class="item2"><img src="img/top picks.jpg" alt=""> TOP PICKS</div>
+        <div class="item2"><img src="img/bk cafe.jpg" alt="">BK CAFE</div>
+        <div class="item2"><img src="img/high coffe combo.jpg" alt=""> COFFEE COMBOS</div>
+        <div class="item2"><img src="img/whopper.jpg" alt="">WHOPPERS</div>
+        <div class="item2"><img src="img/burger.jpg" alt="">BURGERS</div>
+        <div class="item2" id="but2"><input type="button" value=">"> </div>
+
+    </div>
+
+    <h2 class="fav">FAVOURITES</h2>
+
+    <div class="fav1">
+        <div class="comb1" id="but1"><input type="button" value="<"></div>
+        <div class="comb"><img src="img/vdouble.jpg" alt="" height="175px">
+            <div class="tet">
+                <h4>CRISPY VEG DOUBLE PATTY + CRISPY VEG...</h4>
+                <h6>CRISPY VEG DOUBLE PATTY + CRISPY VEG DOUBLE PATTY</h6>
+                <h3>RS 150/-</h3>
+            </div>
+        </div>
+        <div class="comb"><img src="img/vegwhopper.jpg" alt="" height="175px">
+            <div class="tet">
+                <h4>LITE WHOPPER JR VEG+ LITE WHOPPER JR..</h4>
+                <h6>LITE WHOPPER JR VEG+ + LITE WHOPPER JR VEG+ </h6>
+                <h3>RS 238/-</h3>
+            </div>
+        </div>
+        <div class="comb"><img src="img/chickendouble.jpg" alt="" height="175px">
+            <div class="tet">
+                <h4>CRISPY CHICKEN DOUBLE PATTY +...</h4>
+                <h6>CRISPY CHICKEN DOUBLE PATTY + CRISPY CHICKEN DOUBLE PATTY + </h6>
+                <h3>RS 238/-</h3>
+            </div>
+        </div>
+        <div class="comb1" id="but2"><input type="button" value=">"> </div>
+    </div>
+    <div class="off"><img src="img/bk4.jpg" alt="" class="offt"></div>
+
+    <h2 class="bkS">BK SPECIALS</h2>
+    <div class="spe">
+        <div class="item4"><img src="img/bk1.jpg" alt="" height="175px">
+            <div class="tet">
+                <h4>CRISPY VEG BURGER</h4>
+                <h6>Our best-sellign burger with fresh patty,fresh onion </h6>
+                <h3>RS 55/- </h3>
+            </div>
+        </div>
+        <div class="item4"><img src="img/bks2.jpg" alt="" height="175px">
+            <div class="tet">
+                <h4>BK CLASSIC CHICKEN</h4>
+                <h6>Our tribute to classic american taste .BK chicken </h6>
+                <h3>RS 119/-</h3>
+            </div>
+        </div>
+        <div class="item4"><img src="img/bks3.jpg" alt="" height="175px">
+            <div class="tet">
+                <h4>CRISPY CHICEKEN BURGER</h4>
+                <h6>Crispy chicken patty burger, our best seller </h6>
+                <h3>RS 80/-</h3>
+            </div>
+        </div>
+        <div class="item4"><img src="img/bks4.jpg" alt="" height="175px">
+            <div class="tet">
+                <h4>BK CLASSIC VEG</h4>
+                <h6>Our tribute to classic american taste .BK veg patty </h6>
+                <h3>RS 99/- </h3>
+            </div>
+        </div>
+        <div class="item4"><img src="img/bks5.jpg" alt="" height="175px">
+            <div class="tet">
+                <h4>FRIES (KING)</h4>
+                <h6>The perfect crispy partner</h6>
+                <h3>RS 109/- </h3>
+            </div>
+        </div>
+    </div>
+    <div><img src="img/bkwall.jpg" alt="" class="btw"></div>
+
+    <div class="foot">
+        <div class="footer">
+            <h4>BK INFO </h4>
+            <div class="fi">
+                <h5>
+                    <li> About BK</li>
+                    <li></li>Fresh taste</li>
+                    <li></li>Invester relation</li>
+                </h5>
+            </div>
+        </div>
+        <div class="footer">
+            <h4>CONTACT</h4>
+            <div class="fi">
+                <h5>Help and support</h5>
+                <h5>
+                    write to us:<li>careers</li>
+                    <li>Customer cares</li>
+                    <li>Supply chain Query</li>
+                    <li>Invester relation</li>
+                    <li>franchising</li>
+
+
+                </h5>
+            </div>
+        </div>
+        <div class="footer">
+            <h4>BK CARES</h4>
+            <h5>
+                <li>Creating brighter future </li>
+                <li>Nutrition information</li>
+                <li>Trust and table</li>
+                <li>Covid 19 safety</li>
+            </h5>
+        </div>
+        <div class="footer">
+            <h4>LEGAL</h4>
+            <h5>
+                <li>Terms and Conditions</li>
+                <li>Privacy Policy</li>
+            </h5>
+        </div>
+        <div class="footer" id="down">
+            <h4>DOWNLOAD YOUR APP
+            </h4>
+            <img src="img/pp.png" alt="">
+            <img src="img/pp1.png" alt="">
+
+        </div>
+    </div>
+</body>
+
+</html>
